@@ -10,49 +10,275 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="public/logo.svg" alt="Logo do ReciclaTech" class="logo__image" />
+    <header>
+        <div>
+            <img src="public/logo.svg" alt="Logo do ReciclaTech" />
             <h2 class="logo__text">ReciclaTech</h2>
         </div>
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="#" class="navbar__link">Como Funciona</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Doar</a></li>
-                <li class="navbar__item"><a href="#" class="navbar__link">Adquirir</a></li>
+        <nav>
+            <ul>
+                <li><a href="#">Como Funciona</a></li>
+                <li><a href="#">Doar</a></li>
+                <li><a href="#">Adquirir</a></li>
             </ul>
+            <button>Começar Agora</button>
         </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
         <section>
-            <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
+            <div>
+                <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
+                <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples,
+                    gratuito e sustentável!</p>
+                <div>
+                    <button>Quero Doar</button>
+                    <button>Quero Adquirir</button>
+                </div>
+            </div>
+            <img src="./src/assets/imgs/reciclagem.png" alt="Símbolo de reciclagem com dispositivos eletrônicos" />
         </section>
+
+        <div>
+            <div>
+                <p>2.5k+</p>
+                <p>Eletrônicos doados</p>
+            </div>
+            <div>
+                <p>1.8k+</p>
+                <p>Famílias beneficiadas</p>
+            </div>
+            <div>
+                <p>95%</p>
+                <p>Satisfação dos usuários</p>
+            </div>
+        </div>
 
         <!-- How It Works Section -->
         <section>
             <h2>Como Funciona?</h2>
+            <p>É mais fácil que trocar a pilha de controle!</p>
+
+            <!-- Container de Cards -->
+            <div>
+                <!-- Card de Doadores -->
+                <article>
+                    <h3>Para doadores</h3>
+                    <p>Transforme seu "lixo eletrônico" no tesouro de alguém</p>
+
+                    <!-- Item 1 -->
+                    <div>
+                        <span>1</span>
+                        <div>
+                            <p>Cadastra seu eletrônico</p>
+                            <p>Tire umas fotos, descreva o estado e pronto!</p>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div>
+                        <span>2</span>
+                        <div>
+                            <p>Aguarde o match</p>
+                            <p>Alguém vai se interessar pelo seu item</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div>
+                        <span>3</span>
+                        <div>
+                            <p>Combine a entrega</p>
+                            <p>Vocês decidem como fazer a entrega</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Card de Adquirentes -->
+                <article>
+                    <h3>Para adquirentes</h3>
+                    <p>Encontre o eletrônico dos seus sonhos de graça</p>
+
+                    <!-- Item 1 -->
+                    <div>
+                        <span>1</span>
+                        <div>
+                            <p>Explore os itens</p>
+                            <p>Navegue pelos eletrônicos disponíveis</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div>
+                        <span>2</span>
+                        <div>
+                            <p>Demonstre interesse</p>
+                            <p>Clique em "Tenho interesse" no item</p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div>
+                        <span>3</span>
+                        <div>
+                            <p>Receba seu novo gadget</p>
+                            <p>Combine com o doador e seja feliz!</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <!-- Products Section -->
         <section>
             <h2>Produtos disponíveis</h2>
+            <p>Categorias mais populares</p>
+
+            <!-- Container de Cards -->
+            <div>
+                <!-- Card de Fones -->
+                <article>
+                    <img src="./src/assets/imgs/Fone.png" alt="Imagem de um fone de ouvido" />
+                    <h3>Fones</h3>
+                    <p>Fones em ótimo estado, prontos para uso</p>
+                    <button>Quero adquirir</button>
+                </article>
+
+                <!-- Card de Notebooks -->
+                <article>
+                    <img src="./src/assets/imgs/Notebook.png" alt="Imagem de um notebook" />
+                    <h3>Notebooks</h3>
+                    <p>Notebooks em ótimo estado, prontos para uso</p>
+                    <button>Quero adquirir</button>
+                </article>
+
+                <!-- Card de Smartphones -->
+                <article>
+                    <img src="./src/assets/imgs/Smartphones.png" alt="Imagem de um smartphone" />
+                    <h3>Smartphones</h3>
+                    <p>Smartphones em ótimo estado, prontos para uso</p>
+                    <button>Quero adquirir</button>
+                </article>
+            </div>
         </section>
 
         <!-- Testimonials Section -->
         <section>
             <h2>O que o pessoal está falando?</h2>
+            <p>Histórias de quem já usou</p>
+
+            <!-- Container de Cards -->
+            <div>
+                <!-- Testemunho 1 -->
+                <article>
+                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+
+                    <p>"Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante
+                        que recebeu não tem
+                        preço! 😊"</p>
+
+                    <div>
+                        <span>icon</span>
+
+                        <div>
+                            <h3>João Santos</h3>
+                            <p>Doador</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Testemunho 2 -->
+                <article>
+                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+
+                    <p>"Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana
+                        e ainda ajudei o meio
+                        ambiente! 🌱"</p>
+
+                    <div>
+                        <span>icon</span>
+
+                        <div>
+                            <h3>Maria Silva</h3>
+                            <p>Adquirente</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Testemunho 3 -->
+                <article>
+                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+
+                    <p>"Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é
+                        muito fácil! 👏"</p>
+
+                    <div>
+                        <span>icon</span>
+
+                        <div>
+                            <h3>Ana Costa</h3>
+                            <p>Usuária ativa</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
 
         <!-- CTA Section -->
         <section>
             <h2>Pronto para fazer a diferença?</h2>
+            <p>Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez!</p>
+
+            <div>
+                <button>Começar Agora</button>
+                <button>Saber Mais</button>
+            </div>
         </section>
     </main>
 
     <footer>
+        <section>
+            <h2>ReciclaTech</h2>
+            <p>Conectando pessoas através da sustentabilidade e tecnologia.</p>
+        </section>
 
+        <section>
+            <h3>Links Rápidos</h3>
+
+            <ul>
+                <li><a href="#"></a>Como Funciona</li>
+                <li><a href="#"></a>Doar</li>
+                <li><a href="#"></a>Adquirir</li>
+                <li><a href="#"></a>Contato</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Suporte</h3>
+
+            <ul>
+                <li><a href="#"></a> FAQ</li>
+                <li><a href="#"></a> Termos de Uso</li>
+                <li><a href="#"></a> Privacidade</li>
+                <li><a href="#"></a> Ajuda</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Redes Sociais</h3>
+
+            <p>Siga-nos para novidades e dicas de sustentabilidade!</p>
+
+            <ul></ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            </ul>
+        </section>
+
+        <div>
+            <p>© 2025 ReciclaTech. Todos os direitos reservados. Feito com 💚 para um mundo melhor.</p>
+        </div>
     </footer>
 </body>
 
