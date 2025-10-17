@@ -1,7 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
   background-color: var(--bg-dark);
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--border-muted);
@@ -10,6 +9,8 @@
   top: 0;
   left: 0;
   z-index: 10;
+  gap: var(--space-4);
+  text-align: center;
 
   .brand {
     display: flex;
@@ -17,8 +18,8 @@
     gap: var(--space-2);
 
     .brand__logo {
-      width: 32px;
-      height: 32px;
+      font-size: var(--text-2xl);
+      color: var(--primary);
     }
 
     .brand__title {
@@ -29,14 +30,16 @@
 
   .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: var(--space-8);
-    font-size: var(--text-sm);
+    width: 100%;
+    gap: var(--space-6);
+    font-size: var(--text-xs);
 
     .navbar__list {
       display: flex;
       align-items: center;
-      gap: var(--space-8);
+      gap: var(--space-6);
     }
 
     .navbar__item {
@@ -47,21 +50,37 @@
       text-decoration: none;
       color: var(--text-muted);
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: var(--primary-accent);
         transition: 250ms color;
       }
     }
 
     .navbar__button {
-      padding: var(--space-2) var(--space-4);
-      background-color: var(--primary-accent);
+      padding: var(--space-3) var(--space-4);
+      background-color: var(--primary);
       border-radius: var(--space-1);
       transition: background-color 0.3s, color 0.3s;
 
-      &:hover {
-        background-color: var(--primary);
+      &:hover,
+      &:focus {
+        background-color: var(--primary-accent);
       }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: var(--space-4) var(--space-6);
+
+    .navbar {
+      width: auto;
+      font-size: var(--text-sm);
     }
   }
 }
