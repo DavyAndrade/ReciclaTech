@@ -4,30 +4,34 @@
 :root {
   /*  */
   /* Variáveis de Background */
-  --bg-light: hsl(0, 0%, 100%);
-  --bg: hsl(0, 0%, 95%);
-  --bg-dark: hsl(0, 0%, 90%);
+  --bg-dark: hsl(0, 0%, 0%);
+  --bg: hsl(0, 0%, 5%);
+  --bg-light: hsl(0, 0%, 10%);
   /*  */
   /* Variáveis de Texto */
-  --text: hsl(0, 0%, 5%);
-  --text-muted: hsl(0, 0%, 30%);
-  --text-light: hsl(0, 0%, 95%);
+  --text: hsl(0, 0%, 95%);
+  --text-muted: hsl(0, 0%, 70%);
+  --text-dark: hsl(0, 0%, 30%);
   /*  */
-  --text-xs: 0.75rem;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.125rem;
-  --text-xl: 1.25rem;
-  --text-2xl: 1.5rem;
-  --text-3xl: 1.875rem;
-  --text-4xl: 2.25rem;
-  --text-5xl: 3rem;
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.25rem; /* 20px */
+  --text-2xl: 1.5rem; /* 24px */
+  --text-3xl: 1.875rem; /* 30px */
+  --text-4xl: 2.25rem; /* 36px */
+  --text-5xl: 3rem; /* 48px */
   /*  */
+  /* Variáveis de Bordas */
+  --border-highlight: hsl(0, 0%, 40%);
+  --border: hsl(0, 0%, 30%);
+  --border-muted: hsl(0, 0%, 20%);
   /* Variáveis de Cores de Ação */
-  --primary: hsl(142, 76%, 30%);
-  --primary-accent: hsl(142, 76%, 40%);
-  --secondary: hsl(221, 83%, 50%);
-  --secondary-accent: hsl(221, 83%, 60%);
+  --primary: #16a34a;
+  --primary-accent: #21c05c;
+  --secondary: #2563eb;
+  --secondary-accent: #dbeafe;
   /*  */
   /* Variáveis de Espaçamento (padding, margin, gap) */
   --space-1: 0.25rem; /* 4px */
@@ -51,7 +55,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: var(--bg-light);
+  background-color: var(--bg-dark);
   color: var(--text);
   font-size: var(--text-base);
 }/*# sourceMappingURL=reset.css.map */
