@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ReciclaTech</title>
     <link rel="shortcut icon" href="public/logo.svg" type="image/x-icon">
+    <!-- Reset e estilos do projeto -->
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/navbar/navbar.css">
     <link rel="stylesheet" href="./src/css/statistics/statistics.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="public/logo.svg" alt="Logo do ReciclaTech" />
-            <h2 class="logo__text">ReciclaTech</h2>
+    <header class="header">
+        <!-- Brand -->
+        <div class="brand">
+            <img src="public/logo.svg" alt="Logo do ReciclaTech" class="brand__logo" />
+            <h2 class="brand__title">ReciclaTech</h2>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Como Funciona</a></li>
-                <li><a href="#">Doar</a></li>
-                <li><a href="#">Adquirir</a></li>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="#" class="navbar__link">Como Funciona</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Doar</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Adquirir</a></li>
             </ul>
-            <button>Começar Agora</button>
+            <button class="navbar__button">Começar Agora</button>
         </nav>
     </header>
 
@@ -30,15 +35,15 @@
         <!-- Hero Section -->
         <section>
             <div>
-                <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
+                <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
                 <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples,
                     gratuito e sustentável!</p>
                 <div>
-                    <button>Quero Doar</button>
-                    <button>Quero Adquirir</button>
+                    <button aria-label="Quero doar">Quero Doar</button>
+                    <button aria-label="Quero adquirir">Quero Adquirir</button>
                 </div>
             </div>
-            <img src="./src/assets/imgs/reciclagem.pn" alt="Símbolo de reciclagem com dispositivos eletrônicos" />
+            <img src="./src/assets/imgs/reciclagem.png" alt="Símbolo de reciclagem com dispositivos eletrônicos" />
         </section>
 
         <!-- Estatísticas -->
@@ -174,14 +179,14 @@
             <div>
                 <!-- Testemunho 1 -->
                 <article>
-                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
 
                     <p>"Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante
                         que recebeu não tem
                         preço! 😊"</p>
 
                     <div>
-                        <span>icon</span>
+                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
 
                         <div>
                             <h3>João Santos</h3>
@@ -192,14 +197,14 @@
 
                 <!-- Testemunho 2 -->
                 <article>
-                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
 
                     <p>"Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana
                         e ainda ajudei o meio
                         ambiente! 🌱"</p>
 
                     <div>
-                        <span>icon</span>
+                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
 
                         <div>
                             <h3>Maria Silva</h3>
@@ -210,13 +215,13 @@
 
                 <!-- Testemunho 3 -->
                 <article>
-                    <img src="src/assets/icons/star.png" alt="5 Estrelas">
+                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
 
                     <p>"Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é
                         muito fácil! 👏"</p>
 
                     <div>
-                        <span>icon</span>
+                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
 
                         <div>
                             <h3>Ana Costa</h3>
@@ -272,10 +277,10 @@
 
             <p>Siga-nos para novidades e dicas de sustentabilidade!</p>
 
-            <ul></ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
+            <ul class="social-links">
+                <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
             </ul>
         </section>
 
