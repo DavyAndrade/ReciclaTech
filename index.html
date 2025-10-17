@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/navbar/navbar.css">
     <link rel="stylesheet" href="./src/css/statistics/statistics.css">
+    <link rel="stylesheet" href="./src/css/hero/hero.css">
     <!-- Ícones -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
@@ -35,17 +37,23 @@
 
     <main>
         <!-- Hero Section -->
-        <section>
-            <div>
-                <h1>Dê uma segunda vida aos seus eletrônicos!</h1>
-                <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples,
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Dê uma <span class="hero__highlight">segunda vida</span> aos seus eletrônicos!
+                </h1>
+                <p class="hero__subtitle">Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa
+                    deles. Simples,
                     gratuito e sustentável!</p>
-                <div>
-                    <button aria-label="Quero doar">Quero Doar</button>
-                    <button aria-label="Quero adquirir">Quero Adquirir</button>
+
+                <div class="hero__buttons">
+                    <button class="hero__button" onclick="location.href=`#`">Quero Doar <i
+                            class="bi bi-gift"></i></button>
+                    <button class="hero__button hero__button--secondary" onclick="location.href=`#`">Quero
+                        Adquirir <i class="ri-heart-line"></i></button>
                 </div>
             </div>
-            <img src="./src/assets/imgs/reciclagem.png" alt="Símbolo de reciclagem com dispositivos eletrônicos" />
+            <img src="./src/assets/imgs/reciclagem.png" alt="Símbolo de reciclagem com dispositivos eletrônicos"
+                class="hero__image" />
         </section>
 
         <!-- Estatísticas -->
