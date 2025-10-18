@@ -50,6 +50,7 @@
 }
 .hero .hero__buttons .hero__button:hover, .hero .hero__buttons .hero__button:focus {
   background-color: var(--primary-accent);
+  color: var(--text-dark);
   transition: ease-in-out 250ms all;
 }
 .hero .hero__buttons .hero__button--secondary {
