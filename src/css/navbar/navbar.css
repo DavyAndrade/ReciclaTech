@@ -56,13 +56,15 @@
 }
 .header .navbar .navbar__button {
   padding: var(--space-3) var(--space-4);
-  background-color: var(--primary);
-  border-radius: 0.25rem;
-  transition: background-color 0.3s, color 0.3s;
-}
-.header .navbar .navbar__button:hover, .header .navbar .navbar__button:focus {
   background-color: var(--primary-accent);
   color: var(--text-dark);
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+}
+.header .navbar .navbar__button:hover, .header .navbar .navbar__button:focus {
+  background-color: var(--primary);
+  color: var(--text);
   transition: ease-in-out 250ms all;
 }
 
