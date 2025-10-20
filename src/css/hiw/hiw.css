@@ -111,16 +111,40 @@
 @media screen and (min-width: 768px) {
   .hiw {
     padding: var(--space-6);
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 768px;
+    margin: auto;
   }
   .hiw .hiw__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 768px;
   }
+  .hiw .hiw__content {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    max-width: 768px;
+  }
 }
 /* Notebook */
 @media screen and (min-width: 1024px) {
+  .hiw {
+    max-width: 1024px;
+  }
   .hiw .hiw__cards {
     max-width: 1024px;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .hiw {
+    max-width: 1280px;
+  }
+  .hiw .hiw__cards {
+    max-width: 1280px;
   }
 }/*# sourceMappingURL=hiw.css.map */
