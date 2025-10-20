@@ -1,0 +1,76 @@
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: var(--space-8);
+  padding: var(--space-12) var(--space-4);
+  background-color: var(--bg);
+}
+.cta .cta__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  width: 100%;
+  margin: 0 auto;
+}
+.cta .cta__content .cta__title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  color: var(--text);
+}
+.cta .cta__content .cta__subtitle {
+  font-size: var(--text-lg);
+  color: var(--text-muted);
+  max-width: 480px;
+}
+.cta .cta__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-6);
+  width: 100%;
+}
+.cta .cta__buttons .cta__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: var(--space-3) var(--space-6);
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+.cta .cta__buttons .cta__button:hover, .cta .cta__buttons .cta__button:focus {
+  background-color: var(--primary-accent);
+  color: var(--text-dark);
+  transition: ease-in-out 250ms background-color;
+}
+.cta .cta__buttons .cta__button--secondary {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+.cta .cta__buttons .cta__button--secondary:hover, .cta .cta__buttons .cta__button--secondary:focus {
+  background-color: var(--primary);
+  color: var(--text);
+  transition: ease-in-out 250ms all;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .cta {
+    padding-inline: var(--space-6);
+  }
+  .cta .cta__buttons {
+    flex-direction: row;
+    width: auto;
+  }
+  .cta .cta__buttons .cta__button {
+    width: auto;
+    padding: --space-4;
+  }
+}/*# sourceMappingURL=cta.css.map */
