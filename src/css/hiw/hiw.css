@@ -42,6 +42,7 @@
   padding: var(--space-6);
   border-radius: 0.75rem;
   width: 100%;
+  height: 100%;
 }
 .hiw .hiw__cards .hiw__card .hiw__card-title {
   display: flex;
@@ -106,7 +107,7 @@
   color: var(--text-muted);
 }
 
-/* Tablets */
+/* Tablet */
 @media screen and (min-width: 768px) {
   .hiw {
     padding: var(--space-6);
@@ -114,11 +115,12 @@
   .hiw .hiw__cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 768px;
   }
 }
-/* Desktop */
-@media screen and (min-width: 1280px) {
+/* Notebook */
+@media screen and (min-width: 1024px) {
   .hiw .hiw__cards {
-    padding-inline: calc(var(--space-20) * 2);
+    max-width: 1024px;
   }
 }/*# sourceMappingURL=hiw.css.map */
