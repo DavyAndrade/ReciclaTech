@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: var(--bg-dark);
-  padding: var(--space-4) var(--space-6);
+  padding: var(--space-4);
   border-bottom: 1px solid var(--border-muted);
   position: fixed;
   width: 100%;
@@ -20,8 +20,8 @@
     &:hover,
     &:focus {
       cursor: pointer;
-      opacity: 0.9;
-      transform: ease-in-out 250ms all;
+      transition: ease-in-out 250ms color;
+      color: var(--primary-accent);
     }
 
     .brand__logo {
@@ -59,15 +59,15 @@
 
       &:hover,
       &:focus {
-        color: var(--primary-accent);
-        transition: 250ms color;
+        color: var(--primary);
+        transition: ease-in-out 250ms color;
       }
     }
 
     .navbar__button {
       padding: var(--space-3) var(--space-4);
-      background-color: var(--primary-accent);
-      color: var(--text-dark);
+      background-color: var(--primary);
+      color: var(--text);
       border-radius: 0.25rem;
       transition: background-color 0.3s, color 0.3s;
       font-weight: 500;
@@ -75,7 +75,7 @@
       &:hover,
       &:focus {
         background-color: var(--primary);
-        color: var(--text);
+        color: var(--text-dark);
 
         transition: ease-in-out 250ms all;
       }

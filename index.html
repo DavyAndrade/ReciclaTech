@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./src/css/navbar/navbar.css">
     <link rel="stylesheet" href="./src/css/statistics/statistics.css">
     <link rel="stylesheet" href="./src/css/hero/hero.css">
+    <link rel="stylesheet" href="./src/css/hiw/hiw.css">
     <!-- Ícones -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -74,14 +75,16 @@
 
         <!-- How It Works Section -->
         <section class="hiw">
-            <h2 class="hiw__title">Como Funciona?</h2>
-            <p class="hiw__subtitle">É mais fácil que trocar a pilha de controle!</p>
+            <div class="hiw__content">
+                <h2 class="hiw__title">Como Funciona?</h2>
+                <p class="hiw__subtitle">É mais fácil que trocar a pilha de controle!</p>
+            </div>
 
             <!-- Container de Cards -->
             <div class="hiw__cards">
                 <!-- Card de Doadores -->
                 <article class="hiw__card">
-                    <h3 class="hiw__card-title">Para doadores</h3>
+                    <h3 class="hiw__card-title"><i class="bi bi-gift"></i>Para doadores</h3>
                     <p class="hiw__card-subtitle">Transforme seu "lixo eletrônico" no tesouro de alguém</p>
 
                     <!-- Item 1 -->
@@ -89,58 +92,58 @@
                         <span class="hiw__card-item-number">1</span>
                         <div class="hiw__card-item-content">
                             <p class="hiw__card-highlight">Cadastra seu eletrônico</p>
-                            <p>Tire umas fotos, descreva o estado e pronto!</p>
+                            <p class="hiw__card-description">Tire umas fotos, descreva o estado e pronto!</p>
                         </div>
                     </div>
 
                     <!-- Item 2 -->
-                    <div>
-                        <span>2</span>
-                        <div>
-                            <p>Aguarde o match</p>
-                            <p>Alguém vai se interessar pelo seu item</p>
+                    <div class="hiw__card-item">
+                        <span class="hiw__card-item-number">2</span>
+                        <div class="hiw__card-item-content">
+                            <p class="hiw__card-highlight">Aguarde o match</p>
+                            <p class="hiw__card-description">Alguém vai se interessar pelo seu item</p>
                         </div>
                     </div>
 
                     <!-- Item 3 -->
-                    <div>
-                        <span>3</span>
-                        <div>
-                            <p>Combine a entrega</p>
-                            <p>Vocês decidem como fazer a entrega</p>
+                    <div class="hiw__card-item">
+                        <span class="hiw__card-item-number">3</span>
+                        <div class="hiw__card-item-content">
+                            <p class="hiw__card-highlight">Combine a entrega</p>
+                            <p class="hiw__card-description">Vocês decidem como fazer a entrega</p>
                         </div>
                     </div>
                 </article>
 
                 <!-- Card de Adquirentes -->
-                <article>
-                    <h3>Para adquirentes</h3>
-                    <p>Encontre o eletrônico dos seus sonhos de graça</p>
+                <article class="hiw__card">
+                    <h3 class="hiw__card-title hiw__card-title--secondary"><i class="ri-heart-line"></i> Para adquirentes</h3>
+                    <p class="hiw__card-subtitle">Encontre o eletrônico dos seus sonhos de graça</p>
 
                     <!-- Item 1 -->
-                    <div>
-                        <span>1</span>
-                        <div>
-                            <p>Explore os itens</p>
-                            <p>Navegue pelos eletrônicos disponíveis</p>
+                    <div class="hiw__card-item">
+                        <span class="hiw__card-item-number hiw__card-item-number--secondary">1</span>
+                        <div class="hiw__card-item-content">
+                            <p class="hiw__card-highlight">Explore os itens</p>
+                            <p class="hiw__card-description">Navegue pelos eletrônicos disponíveis</p>
                         </div>
                     </div>
 
                     <!-- Item 2 -->
-                    <div>
-                        <span>2</span>
-                        <div>
-                            <p>Demonstre interesse</p>
-                            <p>Clique em "Tenho interesse" no item</p>
+                    <div class="hiw__card-item">
+                        <span class="hiw__card-item-number hiw__card-item-number--secondary">2</span>
+                        <div class="hiw__card-item-content">
+                            <p class="hiw__card-highlight">Demonstre interesse</p>
+                            <p class="hiw__card-description">Clique em "Tenho interesse" no item</p>
                         </div>
                     </div>
 
                     <!-- Item 3 -->
-                    <div>
-                        <span>3</span>
-                        <div>
-                            <p>Receba seu novo gadget</p>
-                            <p>Combine com o doador e seja feliz!</p>
+                    <div class="hiw__card-item">
+                        <span class="hiw__card-item-number hiw__card-item-number--secondary">3</span>
+                        <div class="hiw__card-item-content">
+                            <p class="hiw__card-highlight">Receba seu novo gadget</p>
+                            <p class="hiw__card-description">Combine com o doador e seja feliz!</p>
                         </div>
                     </div>
                 </article>
