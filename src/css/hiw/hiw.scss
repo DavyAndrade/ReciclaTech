@@ -126,7 +126,7 @@
 /* Tablet */
 @media screen and (min-width: 768px) {
   .hiw {
-    padding: var(--space-6);
+    padding-inline: var(--space-6);
     text-align: left;
     align-items: flex-start;
     justify-content: center;
