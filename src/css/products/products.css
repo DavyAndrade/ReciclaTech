@@ -46,7 +46,7 @@
   border: 2px solid var(--border-highlight);
   border-radius: 0.75rem;
   gap: var(--space-6);
-  background-color: var(--bg);
+  background-color: var(--bg-light);
   padding-bottom: var(--space-6);
 }
 .products .products__cards .products__card .products__card-img {
