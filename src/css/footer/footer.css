@@ -219,11 +219,17 @@
   .footer {
     padding-inline: var(--space-12);
   }
+  .footer .footer__brand {
+    gap: var(--space-4);
+  }
   .footer .footer__brand .footer__brand-title {
     font-size: var(--text-2xl);
   }
   .footer .footer__brand .footer__brand-description {
     font-size: var(--text-base);
+  }
+  .footer .footer__links {
+    gap: var(--space-4);
   }
   .footer .footer__links .footer__links-title {
     font-size: var(--text-xl);
@@ -231,11 +237,17 @@
   .footer .footer__links .footer__links-list .footer__links-item {
     font-size: var(--text-base);
   }
+  .footer .footer__support {
+    gap: var(--space-4);
+  }
   .footer .footer__support .footer__support-title {
     font-size: var(--text-xl);
   }
   .footer .footer__support .footer__support-list .footer__support-item {
     font-size: var(--text-base);
+  }
+  .footer .footer__social {
+    gap: var(--space-4);
   }
   .footer .footer__social .footer__social-title {
     font-size: var(--text-xl);

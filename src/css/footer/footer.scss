@@ -260,6 +260,8 @@
     padding-inline: var(--space-12);
 
     .footer__brand {
+      gap: var(--space-4);
+
       .footer__brand-title {
         font-size: var(--text-2xl);
       }
@@ -270,6 +272,8 @@
     }
 
     .footer__links {
+      gap: var(--space-4);
+
       .footer__links-title {
         font-size: var(--text-xl);
       }
@@ -282,6 +286,8 @@
     }
 
     .footer__support {
+      gap: var(--space-4);
+
       .footer__support-title {
         font-size: var(--text-xl);
       }
@@ -294,6 +300,8 @@
     }
 
     .footer__social {
+      gap: var(--space-4);
+
       .footer__social-title {
         font-size: var(--text-xl);
       }
