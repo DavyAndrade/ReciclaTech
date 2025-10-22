@@ -121,6 +121,7 @@
   .testimonials {
     max-width: 768px;
     margin-inline: auto;
+    padding-inline: var(--space-6);
   }
   .testimonials .testimonials__carousel .testimonials__cards {
     gap: var(--space-8);
