@@ -51,7 +51,7 @@
       &:focus {
         background-color: var(--primary-accent);
         color: var(--text-dark);
-        transition: ease-in-out 250ms background-color;
+        transition: ease-in-out 250ms all;
       }
     }
 
@@ -64,7 +64,6 @@
       &:focus {
         background-color: var(--primary);
         color: var(--text);
-        transition: ease-in-out 250ms all;
       }
     }
   }

@@ -47,7 +47,7 @@
 .cta .cta__buttons .cta__button:hover, .cta .cta__buttons .cta__button:focus {
   background-color: var(--primary-accent);
   color: var(--text-dark);
-  transition: ease-in-out 250ms background-color;
+  transition: ease-in-out 250ms all;
 }
 .cta .cta__buttons .cta__button--secondary {
   background-color: transparent;
@@ -57,7 +57,6 @@
 .cta .cta__buttons .cta__button--secondary:hover, .cta .cta__buttons .cta__button--secondary:focus {
   background-color: var(--primary);
   color: var(--text);
-  transition: ease-in-out 250ms all;
 }
 
 /* Tablet */
