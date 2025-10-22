@@ -22,7 +22,7 @@
   align-items: center;
   width: 100%;
   gap: var(--space-2);
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
   font-weight: 700;
 }
 .footer .footer__brand .footer__brand-title .footer__brand-logo {
@@ -221,9 +221,6 @@
   }
   .footer .footer__brand {
     gap: var(--space-4);
-  }
-  .footer .footer__brand .footer__brand-title {
-    font-size: var(--text-2xl);
   }
   .footer .footer__brand .footer__brand-description {
     font-size: var(--text-base);

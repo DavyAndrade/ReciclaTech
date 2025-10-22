@@ -195,64 +195,243 @@
         </section>
 
         <!-- Testimonials Section -->
-        <section>
-            <h2>O que o pessoal está falando?</h2>
-            <p>Histórias de quem já usou</p>
+        <section class="testimonials">
+            <div class="testimonials__content">
+                <h2 class="testimonials__title">O que o pessoal está falando?</h2>
+                <p class="testimonials__subtitle">Histórias de quem já usou</p>
+            </div>
 
-            <!-- Container de Cards -->
-            <div>
-                <!-- Testemunho 1 -->
-                <article>
-                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
 
-                    <p>"Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante
-                        que recebeu não tem
-                        preço! 😊"</p>
+            <!-- Carrossel -->
+            <div class="testimonials__carousel">
 
-                    <div>
-                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
+                <!-- Container de Cards -->
+                <div class="testimonials__cards">
+                    <!-- Testemunho 1 -->
+                    <article class="testimonials__card">
 
-                        <div>
-                            <h3>João Santos</h3>
-                            <p>Doador</p>
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
                         </div>
-                    </div>
-                </article>
 
-                <!-- Testemunho 2 -->
-                <article>
-                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
+                        <p class="testimonials__card-text">"Doei meu notebook antigo e em 2 dias já tinha alguém
+                            interessado! Ver a felicidade do estudante
+                            que recebeu não tem
+                            preço! 😊"</p>
 
-                    <p>"Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana
-                        e ainda ajudei o meio
-                        ambiente! 🌱"</p>
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon" aria-hidden="true"><i class="bi bi-gift"></i></span>
 
-                    <div>
-                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
-
-                        <div>
-                            <h3>Maria Silva</h3>
-                            <p>Adquirente</p>
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">João Santos</h3>
+                                <p class="testimonials__card-user-role">Doador</p>
+                            </div>
                         </div>
-                    </div>
-                </article>
+                    </article>
 
-                <!-- Testemunho 3 -->
-                <article>
-                    <img src="./src/assets/icons/star.png" alt="5 Estrelas" />
-
-                    <p>"Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é
-                        muito fácil! 👏"</p>
-
-                    <div>
-                        <span class="testimonial__avatar" aria-hidden="true"><i class="fa-solid fa-user"></i></span>
-
-                        <div>
-                            <h3>Ana Costa</h3>
-                            <p>Usuária ativa</p>
+                    <!-- Testemunho 2 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
-                    </div>
-                </article>
+
+                        <p class="testimonials__card-text">"Consegui um iPhone 12 em perfeito estado! A dona anterior
+                            cuidou
+                            super bem. Economizei
+                            uma
+                            grana
+                            e ainda ajudei o meio
+                            ambiente! 🌱"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--adquirente"
+                                aria-hidden="true"><i class="ri-heart-line"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Maria Silva</h3>
+                                <p class="testimonials__card-user-role">Adquirente</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Testemunho 3 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Plataforma incrível! Já doei 3 itens e adquiri 2. A
+                            comunidade é
+                            super respeitosa e o processo é
+                            muito fácil! 👏"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--active" aria-hidden="true"><i
+                                    class="ri-recycle-fill"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Ana Costa</h3>
+                                <p class="testimonials__card-user-role">Usuária ativa</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="testimonials__cards">
+                    <!-- Testemunho 1 -->
+                    <article class="testimonials__card">
+
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Doei meu notebook antigo e em 2 dias já tinha alguém
+                            interessado! Ver a felicidade do estudante
+                            que recebeu não tem
+                            preço! 😊"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon" aria-hidden="true"><i class="bi bi-gift"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">João Santos</h3>
+                                <p class="testimonials__card-user-role">Doador</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Testemunho 2 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Consegui um iPhone 12 em perfeito estado! A dona anterior
+                            cuidou
+                            super bem. Economizei
+                            uma
+                            grana
+                            e ainda ajudei o meio
+                            ambiente! 🌱"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--adquirente"
+                                aria-hidden="true"><i class="ri-heart-line"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Maria Silva</h3>
+                                <p class="testimonials__card-user-role">Adquirente</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Testemunho 3 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Plataforma incrível! Já doei 3 itens e adquiri 2. A
+                            comunidade é
+                            super respeitosa e o processo é
+                            muito fácil! 👏"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--active" aria-hidden="true"><i
+                                    class="ri-recycle-fill"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Ana Costa</h3>
+                                <p class="testimonials__card-user-role">Usuária ativa</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="testimonials__cards">
+                    <!-- Testemunho 1 -->
+                    <article class="testimonials__card">
+
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Doei meu notebook antigo e em 2 dias já tinha alguém
+                            interessado! Ver a felicidade do estudante
+                            que recebeu não tem
+                            preço! 😊"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon" aria-hidden="true"><i class="bi bi-gift"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">João Santos</h3>
+                                <p class="testimonials__card-user-role">Doador</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Testemunho 2 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Consegui um iPhone 12 em perfeito estado! A dona anterior
+                            cuidou
+                            super bem. Economizei
+                            uma
+                            grana
+                            e ainda ajudei o meio
+                            ambiente! 🌱"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--adquirente"
+                                aria-hidden="true"><i class="ri-heart-line"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Maria Silva</h3>
+                                <p class="testimonials__card-user-role">Adquirente</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Testemunho 3 -->
+                    <article class="testimonials__card">
+                        <div class="testimonials__card-stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+
+                        <p class="testimonials__card-text">"Plataforma incrível! Já doei 3 itens e adquiri 2. A
+                            comunidade é
+                            super respeitosa e o processo é
+                            muito fácil! 👏"</p>
+
+                        <div class="testimonials__card-user">
+                            <span class="testimonials__card-icon testimonials__card-icon--active" aria-hidden="true"><i
+                                    class="ri-recycle-fill"></i></span>
+
+                            <div class="testimonials__card-user-info">
+                                <h3 class="testimonials__card-user-name">Ana Costa</h3>
+                                <p class="testimonials__card-user-role">Usuária ativa</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
 
