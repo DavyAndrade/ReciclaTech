@@ -57,7 +57,7 @@ Pequenas contribuições são bem-vindas. Sugestões:
 - Corrigir ou otimizar imagens (tamanhos, compressão).
 - Modularizar SCSS (criar `_variables.scss`, `_components.scss`, etc.).
 
-Workflow sugerido (local):
+### Workflow sugerido (local):
 
 1. Crie uma branch: `git checkout -b feat/nova-coisa`
 2. Faça alterações e teste localmente (compile SCSS, abra `index.html`).
