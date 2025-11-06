@@ -1,6 +1,6 @@
 # ReciclaTech ♻️
 
-ReciclaTech é um projeto simples em HTML + SCSS pensado para demonstrar uma interface de doação/adopção de eletrônicos. O objetivo do README é documentar como o projeto está organizado, como compilar o SCSS para CSS e como fazer um preview local rápido.
+ReciclaTech é um projeto simples em HTML + SCSS pensado para demonstrar uma interface de doação/adopção de eletrônicos.
 
 ## Protótipo 🔗
 
